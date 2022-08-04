@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="game.css">
+    <title>Play Game</title>
+    <link rel="shortcut icon" href="img/favicon.png">
+</head>
+
+<body>
+    <!-- menu -->
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="register.html">Register</a></li>
+                <li><a href="About.html">About Us</a></li>
+                <li><a href="game.html">Game</a></li>
+                <li><a href="const.html">Contact</a></li>
+            </ul>
+        </nav>
+        <div class="trigger-main">
+            <a href="#" class="hamBurger">
+                <span class="one"></span>
+                <span class="two"></span>
+            </a>
+        </div>
+    </header>
+
+    <!-- End of Menu -->
+
+    <div class="container">
+        <h1 class="fancy">Guess Number Game</h1>
+        <h2 id="Counter"></h2>
+        <h2 id="tip"> Do you wanna guess my secret number? Enter a 5 digits number and see how many digits you guess in
+            right or wrong position.
+            Be careful! You only have 15 chance to guess my number! Look at the table to evaluate your Estimation.<br />
+            <!-- you can see the result of each attemp in this table! -->
+        </h2>
+        <div id=txtbtn><input type="text" placeholder="Guess Here!" id="gusee" class="inputs">
+
+            <input type="button" value="Guess" id="try">
+        </div>
+        <div id="logs"></div>
+    </div>
+    <table id="table"></table>
+
+    <div class="loader-wrapper">
+        <div class="loader"></div>
+
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+    </div>
+
+
+
+
+    <script language='Javascript' type='text/javascript' src='game.js'></script>
+</body>
+
+</html>

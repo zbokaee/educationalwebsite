@@ -1,0 +1,265 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <!-- <script src="main.js"></script> -->
+    <link rel="shortcut icon" href="img/favicon.png">
+    <link href="https://fonts.googleapis.com/css?family=Poppins&display=swap" rel="stylesheet">
+    <title>Welcome to NUS online!</title>
+</head>
+<body>
+   
+  
+  <div class="container">
+<!-- Navbar -->
+      <div class="open-navbar-icon navbar-icon center">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="navbar-wrapper">
+        <nav class="navbar">
+          <div class="close-navbar-icon navbar-icon center">
+            <div class="line line-1"></div>
+            <div class="line line-2"></div>
+          </div>
+          <div class="nav-list">
+            <a href="#" class="nav-link center">Home</a>
+            <a href="register.html" class="nav-link center">Register</a>
+            <a href="About.html" class="nav-link center">About Us</a>
+            <a href="game.html" class="nav-link center">Game</a>
+            <a href="const.html" class="nav-link center">Contact</a>
+          </div>
+        </nav>
+      </div>
+      <!-- End of Navbar -->
+
+
+
+        <div class="logo">
+            <h1>
+                <span class="center">N</span>
+                <span class="center">U</span>
+                <span class="center">S</span>
+                <span class="center">O</span>
+                <span class="center">N</span>
+                <span class="center">L</span>
+                <span class="center">I</span>
+                <span class="center">N</span>
+                <span class="center">E</span>
+            </h1>
+        </div>
+        <div class ="search">
+            <nav>
+              <div class="cont">
+                 <button onclick="slide()" ></button>
+                 <p class="center"><b>What Are You Looking For?</b></p>
+              </div>
+            </nav>
+            <div id="search-bar" class="hide">
+                <div class="cont1">
+                    <input type="text" placeholder="Ex: Free Education"><button>Search</button>
+                </div>
+            </div> 
+        </div>
+       
+
+
+        <h1 class = "heading-res">Welcome To NUS Online</h1>
+
+
+        <div class="header-text">
+            <h1 class = "heading">NUS Online</h1>
+            <p class = header-paragraph>
+             NUS is the Education Revolution! It is the first non-profit, tuition-free online university dedicated to opening access to higher education globally.
+             Founded by Harvard and Natural University Singapore, NUS is home to more than 20 million learners, the majority of top-ranked universities in the world and industry-leading companies.<span id="dots">..</span>
+             <span id= "more">Our students come from every country in the world! Whether you are interested in computer science, languages, engineering, psychology, writing, electronics, biology, or marketing, we have the course for you!
+             </span>
+            </p>
+            <button type="button" id="read-more" onclick="read()" >Read More</button>
+           
+        </div> 
+    </div> 
+      <!-- End Of container box -->
+      <section class = "popular-course">
+      <h1 class="popular-course-heading">The Most Popular Courses</h1>
+        <div class="card-wrapper">
+            <div class="card">
+               <div class="front-side">
+                   <img src="img/javascript-illustration.png" alt="forest" class="card-image"/>
+                   <h1 class="tour-name">Javascript</h1>
+                   <ul class="card-list">
+                       <li class="card-list-item">Duration: 100 hours</li>
+                       <li class="card-list-item">Instructor: Susan H. Rodger </li>
+                       <li class="card-list-item">Learner Career Outcomes: 41%</li>
+                       <li class="card-list-item">Prerequisites: HTML and CSS</li>
+                   </ul>
+                   <button class="navigation-button">
+                       Price &gt;&gt;
+                   </button>
+               </div> 
+               <div class="back-side center">
+                <button class="navigation-button">
+                    &lt;&lt; back
+                </button>
+                <h3 class="tour-price">250$</h3>
+                <button class="card-button">Enroll</button>
+               </div>
+            </div>
+
+            <div class="card">
+                <div class="front-side">
+                    <img src="img/html-illustration.png" alt="forest" class="card-image"/>
+                    <h1 class="tour-name">HTML</h1>
+                    <ul class="card-list">
+                        <li class="card-list-item">Duration: 20 hours</li>
+                        <li class="card-list-item">Instructor: Owen Astrachan </li>
+                        <li class="card-list-item">Learner Career Outcomes: 87%</li>
+                        <li class="card-list-item">Prerequisites: -</li>
+                    </ul>
+                    <button class="navigation-button">
+                        Price &gt;&gt;
+                    </button>
+                </div> 
+                <div class="back-side center">
+                 <button class="navigation-button">
+                     &lt;&lt; back
+                 </button>
+                 <h3 class="tour-price">100$</h3>
+                 <button class="card-button">Enroll</button>
+                </div>
+             </div>
+
+             <div class="card">
+                <div class="front-side">
+                    <img src="img/css-illustration.png" alt="forest" class="card-image"/>
+                    <h1 class="tour-name">CSS</h1>
+                    <ul class="card-list">
+                        <li class="card-list-item">Duration: 55 hours</li>
+                        <li class="card-list-item">Instructor: Andrew D. Hilton</li>
+                        <li class="card-list-item">Learner Career Outcomes: 60%</li>
+                        <li class="card-list-item">Prerequisites: HTML</li>
+                    </ul>
+                    <button class="navigation-button">
+                        Price &gt;&gt;
+                    </button>
+                </div> 
+                <div class="back-side center">
+                 <button class="navigation-button">
+                     &lt;&lt; back
+                 </button>
+                 <h3 class="tour-price">120$</h3>
+                 <button class="card-button">Enroll</button>
+                </div>
+             </div>
+
+
+        </div>
+      </section>
+      <!-- End of cards -->
+      <!-- comments -->
+       <section class=stories>
+           <div class="video-container">
+               <video class="bg-video" autoplay muted loop>
+                   <source src="img/coverr-girl-typing-on-a-laptop-1579785102634.mp4" type="video/mp4"/>
+               </video>
+           </div>
+        <h1 class="popular-course-heading">What People Say about NUS</h1>
+           <div class="stories-wrapper">
+             <div class="story-bg">
+                 <div class="story">
+                     <img src="img/Natalie_Hanisch.png" alt="Student Image" class="story-image"/>
+                     <div class="story-text">
+                         <h1 class="story-heading">NUS Remove all learning barriers</h1>
+                          <p class="story-paragraph">
+                            Dimitra_Tsalavouti, Morocco: With NUS, I gained the confidence I needed to start a new journey in life.
+                             Now I’m in the process of transitioning to what I’ve always dreamed of doing.
+                             To be able to take courses at my own pace and rhythm has been an amazing experience.
+                              I can learn whenever it fits my schedule and mood.
+                          </p>
+                          
+                     </div>
+                 </div>
+             </div>
+             
+
+             <div class="story-bg">
+                <div class="story">
+                    <img src="img/Lisa_Leniashina.jpg" alt="Student Image" class="story-image"/>
+                    <div class="story-text">
+                        <h1 class="story-heading">Ace your interview with NUS!</h1>
+                         <p class="story-paragraph">
+                           Maria jain, Newzeland: NUS has been invaluable for my businesses and my personal development.
+                            The courses helped me improve my day-to-day problem solving.
+                            Without NUS, it would be difficult for me to gain the skills.
+                            I need to maintain a consistent pace of learning, especially while working full-time.
+                         </p>
+                    </div>
+                </div>
+            </div>
+
+
+
+
+           </div>
+       </section>
+       
+       <!-- Contact Section -->
+    <section class="contact">
+      <h1 class="contact-heading">Contact Us</h1>
+      <form class="contact-form center">
+       <div class="input-group">
+           <label>Full Name *</label>
+           <input type="text" class="contact-input" placeholder="Enter Your Name"/>
+       </div>
+      <div class="input-groups">
+        <div class="input-group">
+            <label>Email *</label>
+            <input type="email" class="contact-input" placeholder="Enter Your Email"/>
+        </div>
+        <div class="input-group">
+            <label>Phone *</label>
+            <input type="text" class="contact-input" placeholder="Enter Phone Number"/>
+        </div>
+      </div>
+      <div class="input-group">
+          <label>Message</label>
+          <textarea class="form-textarea" placeholder="Your Message Here"></textarea>
+      </div>
+       <input type="submit" value="submit" class="form-btn"/>
+      </form> 
+    </section>
+    <footer class="footer">
+        <div class="footer-list">
+          <a href="index.html" class="footer-link">Home</a>
+          <a href="register.html" class="footer-link">Register</a>
+          <a href="About.html" class="footer-link">About Us</a>
+          <a href="const.html" class="footer-link">Contact</a>
+        </div>
+        <p class="footer-paragraph">
+          Copyright &copy; Zbokaee All Rights Reserved
+        </p>
+      </footer>
+      
+      <div class="loader-wrapper">
+        <div class="loader"></div>
+        
+        <div class="loader-section section-left"></div>
+        <div class="loader-section section-right"></div>
+      </div>
+
+
+
+
+
+
+
+      <div id="backtop"> <br> <span id="offset"></span></div>
+
+
+
+</body>
+<script language='Javascript' type='text/javascript' src='main.js'></script>
+</html>
